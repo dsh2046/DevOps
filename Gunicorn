@@ -31,4 +31,4 @@ exec /root/ENV/python3/bin/gunicorn  ${DJANGO_WSGI_MODULE}:application \
 --bind=unix:$SOCKFILE \
 --log-level=debug \
 --log-file=-
--b 0.0.0.0:8000
+--bind=127.0.0.1:8000
