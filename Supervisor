@@ -2,7 +2,7 @@
 
 [program:dt]
 directory = /home/ubuntu/aculink810-device-template-creation ; 程序的启动目录
-command = /home/ubuntu/.virtualenvs/dt/bin/gunicorn -w 4 deviceTemplate.wsgi -b 0.0.0.0:8000  ; 启动命令，可以看出>与手动在命令行启动的命令是一样的，注意这里home不可用~代替
+command = /home/ubuntu/gunicorn_start; 启动命令，可以看出>与手动在命令行启动的命令是一样的，注意这里home不可用~代替
 autostart = true     ; 在 supervisord 启动的时候也自动启动
 startsecs = 5        ; 启动 5 秒后没有异常退出，就当作已经正常启动了
 autorestart = true   ; 程序异常退出后自动重启
