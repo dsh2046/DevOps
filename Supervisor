@@ -1,4 +1,4 @@
-##Under: /etc/supervisor/conf.d/dt.conf
+### Under: /etc/supervisor/conf.d/dt.conf
 
 [program:dt]
 directory = /home/ubuntu/aculink810-device-template-creation ; 程序的启动目录
@@ -14,7 +14,7 @@ stdout_logfile_backups = 20     ; stdout 日志文件备份数
 ; stdout 日志文件，需要注意当指定目录不存在时无法正常启动，所以需要手动创建目录（supervisord 会自动创建日志文件）
 stdout_logfile = /home/ubuntu/logs/app.log
 
-Under: 
+### Under: /etc/supervisor/supervisord.conf
 
 [unix_http_server]
 file=/var/run/supervisor.sock   ; (the path to the socket file)
