@@ -1,4 +1,4 @@
-Under:  /etc/nginx/sites-available/default AND /etc/nginx/sites-enable/default
+#### Under:  /etc/nginx/sites-available/default AND /etc/nginx/sites-enable/default
 
 server {                                                               
     listen      80;                                                    
