@@ -5,4 +5,5 @@
    
 2. Run command(with su): echo_supervisord_conf > /etc/supervisor/supervisord.conf
 
+3. Configure files
 
