@@ -7,3 +7,7 @@
 
 3. Configure files
 
+4. sudo supervisord -c /etc/supervisor/supervisord.conf
+
+5. If files changed, run: sudo supervisorctl reload
+
